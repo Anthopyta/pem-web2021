@@ -8,35 +8,56 @@
 </head>
 
 <style>
-    .menu {
-        position: absolute;
-        width: 97px;
-        height: 48px;
+    body {
+        font-family: 'Segoe UI', sans-serif;
+    }
+    
+    .menu{
+        background-color: #000000;
+        overflow: hidden;
+    }
+
+    .menu a {
+        float: left;
+        color: #ffffff;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+        font-size: 17px;
+    }
+
+    .menu a:hover{
+        background-color: #14213d;
+        color: #fca311;
+    }
+
+    h3{
+        width: 766px;
+        height: 288px;
         left: 67px;
-        top: 73px;
+        top: 310px;
 
         font-family: Segoe UI;
         font-style: normal;
         font-weight: normal;
         font-size: 36px;
         line-height: 48px;
-        /* identical to box height */
+    }
+
+    p{
+        width: 675px;
+        height: 48px;
+        left: 70px;
+        top: 225px;
+
+        font-family: Segoe UI;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 36px;
+        line-height: 48px;
 
         display: flex;
         align-items: center;
-        text-align: center;
-
-        color: #FFFFFF;
-    }
-
-    .container-menu{
-        position: absolute;
-        width: 1440px;
-        height: 1024px;
-        left: 0px;
-        top: 0px;
-
-        background: linear-gradient(116.82deg, rgba(146, 97, 85, 0.9) 0%, rgba(60, 68, 92, 0.95) 100%);
     }
 </style>
 
@@ -44,15 +65,24 @@
     <header>
         <div class="container-menu">
             <div class="menu">
-                <table>
-                    <tr>
-                        <td><a href="#">Home</a></td>
-                        <td><a href="#">Skill</a></td>
-                        <td><a href="#">About</a></td>
-                    </tr>
-                </table>
+                <a href="#">Home</a>
+                <a href="#">Skill</a>
+                <a href="#">About</a>       
             </div>
         </div>
     </header>
+
+    <main>
+        <div class="container-main">
+            <div class="main">
+                <p>IDHAM ADI LEKSONO - Information Technology</p>
+                <h4>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eaque magni rem nisi quam quibusdam libero! Eum quae, suscipit pariatur neque quos ducimus officiis, nemo, ratione totam distinctio quasi. Alias, blanditiis.</h4>
+            </div>
+        </div>
+
+        <div class="foto">
+            <object width="100%" height="500px" data="biodata.html" type="text/html"></object>
+        </div>
+    </main>
 </body>
 </html>
