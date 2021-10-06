@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+    <form action="contact.php">
+        <table border="0">
+        <fieldset>
+            <legend>Registrasi</legend>
+            <!-- Nama -->
+            <p>
+                <label>Nama :</label>
+                <input type="text" name="nama" placeholder="Nama Lengkap..."></td>
+            </p>  
+            <!-- username -->
+            <p>
+                <label>Username :</label>
+                <input type="text" name="username" placeholder="Username...">
+            </p>
+            <!-- email -->
+            <p>
+                <label>Email :</label>
+                <input type="email" name="email" placeholder="Nama email...">
+            </p>
+            <!-- password -->
+            <p>
+                <label>Password :</label>
+                <input type="password" name="password" placeholder="Password...">
+            </p>
+            <!-- jenis kelamin -->
+            <p>
+                <label>Jenis kelamin</label>
+                <label><input type="radio" name="jenis_kelamin" value="laki - laki"></label>
+                <label><input type="radio" name="jenis_kelamin" value="perempuan"></label>
+            </p>
+            <!-- agama -->
+            <p>
+                <label>Agama :</label>
+                <select name="agama">
+                    <option value="Islam"></option>
+                    <option value="Kristen"></option>
+                    <option value="Hindu"></option>
+                    <option value="Budha"></option>
+                </select>
+            </p>
+            <!-- biografi -->
+            <p>
+                <label>Biografi :</label>
+                <textarea name="biografi" cols="30" rows="10"></textarea>
+            </p>
+            <!-- submit -->
+            <p>
+                <input type="submit" value="submit" name="Daftar">
+            </p>
+        </table>     
+        </fieldset>
+    </form>
+</body>
+</html>
