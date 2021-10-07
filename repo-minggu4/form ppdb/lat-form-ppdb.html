@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>FORMULIR PPDB JALUR ZONSI TAHUN 2021 </title>
+</head>
+<body>
+    <h1>Formulir PPDB Jalur Zonasi Tahun 2021</h1>
+    <hr>
+    <form action="action.php" method="POST">
+    <div class="container-pendaftaran">
+        <h3>Info Pendaftaran</h2>
+            <div class="nisn">
+                <label for="nisn"><strong>NISN</strong></label>
+                <input type="number" placeholder="Masukan NISN" required>
+            </div>
+
+            <div class="sekolah">
+                <label for="sekolah"><strong>Asal Sekolah</strong></label>
+                <input type="text" name="asal_sekolah" placeholder="Asal sekolah Anda" required>
+            </div>
+
+            <div class="th_lulus">
+                <label for="th_lulus"><strong>Tahun Lulus</strong></label>
+                <select name="th_lulus" required>
+                    <option value="2020">2020</option>
+                    <option value="2019">2019</option>
+                </select>
+            </div>
+    </div>
+
+    <div class="container-dataSiswa">
+        <h3>Data Calon Siswa</h3>
+        <div class="nama">
+            <label for="nama"><strong>Nama Lengkap</strong></label>
+            <input type="text" name="nama" required>
+        </div>
+        
+        <div class="nik">
+            <label for="nik"><strong>No NIK</strong></label>
+            <input type="number" name="nik" placeholder="No NIK">
+        </div>
+
+        <div class="tgl_lahir">
+            <label for="tgl_lahir"><strong>Tanggal Lahir</strong></label>
+            <input type="date" name="tgl_lahir">
+        </div>
+        
+
+        <div class="ft_kk">
+            <label for="ft_kk"><strong>Fotocopy akte kelahiran yang telah dilegalisir</strong></label>
+            <input type="file" name="ft_kk">
+        </div>
+        
+        <div class="jKelamin">
+            <label for="jKelamin"><strong>Jenis Kelamin</strong></label>
+            <input type="radio" name="jKelamin" value="Laki - laki">
+            <label for="laki-laki">Laki-laki</label>
+            <input type="radio" name="jKelamin" value="perempuan">
+            <label for="perempuan">Perempuan</label>    
+        </div>
+
+        <div class="alamat">
+            <label for="alamat"><strong>Alamat</strong></label>
+            <textarea name="alamat" cols="30" rows="5"placeholder="Alamat"></textarea>
+        </div>   
+        
+        <div class="email">
+            <label for="email"><strong>Email</strong></label>
+            <input type="email" name="eamil" placeholder="Email aktif">
+        </div>
+    </div>
+
+    <div class="container-ortu">
+        <h3>Data Orangtua</h3>
+        <div class="kk">
+            <label for="kk"><strong>Nomor KK</strong></label>
+            <input type="number" name="kk" placeholder="No KK">
+        </div>
+
+        <!-- ayah -->
+        <div class="ayah">
+            <label for="ayah"><strong>Nama Ayah</strong></label>
+            <input type="text" name="ayah" placeholder="Nama Ayah">
+        </div>
+
+        <div class="agama">
+            <label for="agama"><strong>Agama</strong></label>
+            <select name="agama">
+                <option value="islam">Islam</option>
+                <option value="kristen">Kristen</option>
+                <option value="hindu">Hindu</option>
+                <option value="budha">Budha</option>
+            </select>
+        </div>
+
+        <div class="pekerjaan">
+            <label for="pekerjaan"><strong>Pekerjaan</strong></label>
+            <input type="text" name="pekerjaan" placeholder="Pekerjaan Ayah">
+        </div>
+
+        <!-- ibu -->
+        <div class="ibu">
+            <label for="ibu"><strong>Nama Ayah</strong></label>
+            <input type="text" name="ibu" placeholder="Nama Ibu">
+        </div>
+
+        <div class="agama">
+            <label for="agama"><strong>Agama</strong></label>
+            <select name="agama">
+                <option value="islam">Islam</option>
+                <option value="kristen">Kristen</option>
+                <option value="hindu">Hindu</option>
+                <option value="budha">Budha</option>
+            </select>
+        </div>
+
+        <div class="pekerjaan">
+            <label for="pekerjaan"><strong>Pekerjaan</strong></label>
+            <input type="text" name="pekerjaan" placeholder="Pekerjaan Ibu">
+        </div>
+
+        <div class="alamat">
+            <label for="alamat"><strong>Alamat</strong></label>
+            <textarea name="alamat" cols="30" rows="5"placeholder="Alamat"></textarea>
+        </div>   
+    </div>
+    </form>
+</body>
+</html>
