@@ -2,32 +2,293 @@ form{
     background: #eee;
     padding: 5px;
 }
-form div.input{
+/* nisn */
+form div.nisn{
     background: #dfebff;
     padding: 5px;
 }
-form div.input:hover{
-    background: #eef4ff;
-}
-form div.text input:hover{
-    border: 1px solid #000;
-}
-form div.text input:focus{
+form div.nisn input:focus{
     border: 1px solid #f00;
 }
-form div.input label{
+form div.nisn label{
     float: left;
     width: 120px;
     font-weight: 900;
     cursor: pointer;
 }
-form div.input label:hover{
-    color: #f00;
-}
-form div.text input{
+form div.nisn input{
     padding: 5px;
     border: 1px solid #ccc;
 }
+
+/* asal sekolah */
+form div.sekolah{
+    background: #dfebff;
+    padding: 5px;
+}
+form div.sekolah input:focus{
+    border: 1px solid #f00;
+}
+form div.sekolah label{
+    float: left;
+    width: 120px;
+    font-weight: 900;
+    cursor: pointer;
+}
+form div.sekolah input{
+    padding: 5px;
+    border: 1px solid #ccc;
+}
+
+/* tahun lulus */
+form div.th_lulus{
+    background: #dfebff;
+    padding: 5px;
+}
+form div.th_lulus input:focus{
+    border: 1px solid #f00;
+}
+form div.th_lulus label{
+    float: left;
+    width: 120px;
+    font-weight: 900;
+    cursor: pointer;
+}
+form div.th_lulus input{
+    padding: 5px;
+    border: 1px solid #ccc;
+}
+
+/* nama */
+form div.nama{
+    background: #dfebff;
+    padding: 5px;
+}
+form div.nama input:focus{
+    border: 1px solid #f00;
+}
+form div.nama label{
+    float: left;
+    width: 120px;
+    font-weight: 900;
+    cursor: pointer;
+}
+form div.nama input{
+    padding: 5px;
+    border: 1px solid #ccc;
+}
+
+/* nik */
+form div.nik{
+    background: #dfebff;
+    padding: 5px;
+}
+form div.nik input:focus{
+    border: 1px solid #f00;
+}
+form div.nik label{
+    float: left;
+    width: 120px;
+    font-weight: 900;
+    cursor: pointer;
+}
+form div.nik input{
+    padding: 5px;
+    border: 1px solid #ccc;
+}
+
+/* tgl_lahir */
+form div.tgl_lahir{
+    background: #dfebff;
+    padding: 5px;
+}
+form div.tgl_lahir input:focus{
+    border: 1px solid #f00;
+}
+form div.tgl_lahir label{
+    float: left;
+    width: 120px;
+    font-weight: 900;
+    cursor: pointer;
+}
+form div.tgl_lahir input{
+    padding: 5px;
+    border: 1px solid #ccc;
+}
+
+/* ft_kk */
+form div.ft_kk{
+    background: #dfebff;
+    padding: 5px;
+}
+form div.ft_kk input:focus{
+    border: 1px solid #f00;
+}
+form div.ft_kk label{
+    float: left;
+    width: 120px;
+    font-weight: 900;
+    cursor: pointer;
+}
+form div.ft_kk input{
+    padding: 5px;
+    border: 1px solid #ccc;
+}
+
+/* jKelamin */
+form div.jKelamin{
+    background: #dfebff;
+    padding: 5px;
+}
+form div.jKelamin input:focus{
+    border: 1px solid #f00;
+}
+form label[for="jKelamin"]{
+    float: left;
+    width: 120px;
+    font-weight: 900;
+    cursor: pointer;
+}
+form input{
+    padding: 5px;
+    border: 1px solid #ccc;
+}
+
+
+/* alamat */
+form div.alamat{
+    background: #dfebff;
+    padding: 5px;
+}
+form div.alamat input:focus{
+    border: 1px solid #f00;
+}
+form div.alamat label{
+    float: left;
+    width: 120px;
+    font-weight: 900;
+    cursor: pointer;
+}
+form div.alamat input{
+    padding: 5px;
+    border: 1px solid #ccc;
+}
+
+/* email */
+form div.email{
+    background: #dfebff;
+    padding: 5px;
+}
+form div.email input:focus{
+    border: 1px solid #f00;
+}
+form div.email label{
+    float: left;
+    width: 120px;
+    font-weight: 900;
+    cursor: pointer;
+}
+form div.email input{
+    padding: 5px;
+    border: 1px solid #ccc;
+}
+
+/* kk */
+form div.kk{
+    background: #dfebff;
+    padding: 5px;
+}
+form div.kk input:focus{
+    border: 1px solid #f00;
+}
+form div.kk label{
+    float: left;
+    width: 120px;
+    font-weight: 900;
+    cursor: pointer;
+}
+form div.kk input{
+    padding: 5px;
+    border: 1px solid #ccc;
+}
+
+/* ayah */
+form div.ayah{
+    background: #dfebff;
+    padding: 5px;
+}
+form div.ayah input:focus{
+    border: 1px solid #f00;
+}
+form div.ayah label{
+    float: left;
+    width: 120px;
+    font-weight: 900;
+    cursor: pointer;
+}
+form div.ayah input{
+    padding: 5px;
+    border: 1px solid #ccc;
+}
+
+/* agama */
+form div.agama{
+    background: #dfebff;
+    padding: 5px;
+}
+form div.agama input:focus{
+    border: 1px solid #f00;
+}
+form div.agama label{
+    float: left;
+    width: 120px;
+    font-weight: 900;
+    cursor: pointer;
+}
+form div.agama input{
+    padding: 5px;
+    border: 1px solid #ccc;
+}
+
+/* pekerjaan */
+form div.pekerjaan{
+    background: #dfebff;
+    padding: 5px;
+}
+form div.pekerjaan input:focus{
+    border: 1px solid #f00;
+}
+form div.pekerjaan label{
+    float: left;
+    width: 120px;
+    font-weight: 900;
+    cursor: pointer;
+}
+form div.pekerjaan input{
+    padding: 5px;
+    border: 1px solid #ccc;
+}
+
+/* ibu */
+form div.ibu{
+    background: #dfebff;
+    padding: 5px;
+}
+form div.ibu input:focus{
+    border: 1px solid #f00;
+}
+form div.ibu label{
+    float: left;
+    width: 120px;
+    font-weight: 900;
+    cursor: pointer;
+}
+form div.ibu input{
+    padding: 5px;
+    border: 1px solid #ccc;
+}
+
+/* submit */
 form div.submit input{
     background: #b0d0ff;
     border: 1px solid #ccc;
@@ -36,4 +297,19 @@ form div.submit input{
 }
 form div.submit input:hover{
     background: #b7efaa;
+}
+
+/* reset */
+form div.reset input{
+    background: #b0d0ff;
+    border: 1px solid #ccc;
+    cursor: pointer;
+    margin-left: 8px;
+}
+form div.reset input:hover{
+    background: #b7efaa;
+}
+
+div.submit ,div.reset {
+    display: inline-block;
 }

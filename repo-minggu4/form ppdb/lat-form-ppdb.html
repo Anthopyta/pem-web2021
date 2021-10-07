@@ -8,7 +8,7 @@
     <title>FORMULIR PPDB JALUR ZONSI TAHUN 2021 </title>
 </head>
 <body>
-    <h1>Formulir PPDB Jalur Zonasi Tahun 2021</h1>
+    <h2>Formulir PPDB Jalur Zonasi Tahun 2021</h2>
     <hr>
     <form action="action.php" method="POST">
     <div class="container-pendaftaran">
@@ -51,15 +51,15 @@
         
 
         <div class="ft_kk">
-            <label for="ft_kk"><strong>Fotocopy akte kelahiran yang telah dilegalisir</strong></label>
+            <label for="ft_kk"><strong>Akte kelahiran (dilegalisir)</strong></label>
             <input type="file" name="ft_kk">
         </div>
         
         <div class="jKelamin">
             <label for="jKelamin"><strong>Jenis Kelamin</strong></label>
-            <input type="radio" name="jKelamin" value="Laki - laki">
+            <input type="radio" name="laki-laki" value="Laki - laki">
             <label for="laki-laki">Laki-laki</label>
-            <input type="radio" name="jKelamin" value="perempuan">
+            <input type="radio" name="perempuan" value="perempuan">
             <label for="perempuan">Perempuan</label>    
         </div>
 
@@ -104,7 +104,7 @@
 
         <!-- ibu -->
         <div class="ibu">
-            <label for="ibu"><strong>Nama Ayah</strong></label>
+            <label for="ibu"><strong>Nama Ibu</strong></label>
             <input type="text" name="ibu" placeholder="Nama Ibu">
         </div>
 
@@ -127,6 +127,13 @@
             <label for="alamat"><strong>Alamat</strong></label>
             <textarea name="alamat" cols="30" rows="5"placeholder="Alamat"></textarea>
         </div>   
+    </div>
+
+    <div class="input submit">
+        <input type="submit" value="kirim" />
+    </div>
+    <div class="input reset">
+        <input type="reset" value="reset" />
     </div>
     </form>
 </body>
