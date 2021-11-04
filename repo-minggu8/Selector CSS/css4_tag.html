@@ -4,12 +4,51 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
     <title>Document</title>
 </head>
 <body>
-    <!-- selektor tag -->
-    <div></div>
+    <style type="text/css">
+    /*selektor element*/
+    h2 { 
+        font-family: mon;
+        line-height: 1;
+        font-size: 1.5em;
+    }
+
+    /*selektor  id*/
+    #para1 {
+        font-family: monospace;
+        font-size: 18px;
+        color: #e5e5e5;
+    }
+
+     /*selektor class */
+    .class1{
+        font-style: oblique;
+        font-size: medium;
+    }
     
+    /*selektor atribut */
+    input[type="text"]{
+        ackground: none;
+        color: cyan;
+        padding: 10px;
+        border: 1px solid cyan;
+    }
+
+    /*selektor universal */
+    *{
+        padding: 0;
+        margin: 0;
+    }
+    </style>
+    
+    <input type="text" placeholder="Search"/>
+
+    <h2>CSS</h2>
+    <p id="para1"> <strong>CSS</strong>, or <strong>Cascading Styles Sheets</strong>, is a way to style and present HTML. 
+    Whereas the HTML is the meaning or content, the style sheet is the presentation of that document.</p>
+    <br>
+    <p class="class1">Styles don’t smell or taste anything like HTML, they have a format of <strong>‘property: value’</strong> and most properties can be applied to most HTML tags.</p>
 </body>
 </html>
