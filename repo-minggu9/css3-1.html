@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    body {
+        background-color: #284b63;
+        font-family: roboto,sans-serif;
+        text-align: center;
+    }
+
+    h1{
+        color: #d7e3fc;
+    }
+
+    .center{
+        
+        margin: 10px auto;
+        width: 1150px;
+    }
+
+    .kotak{
+        background-color: #aecbeb;
+        color: #000;
+        padding: 20px;
+        width: 200px;
+        float:unset;
+        margin: 20px;
+        height:200px;
+    }
+
+    .kotak1{
+        border-radius: 10px 10px 10px 10px; 
+        /**
+        * * atau cukup 10px saja
+        */
+    }
+
+    .kotak2{
+        border-radius: 40px 20px 60px 90px;
+        /**
+        * ? 40px = atas (kiri atas)
+        * ? 20px = kanan (kanan atas)
+        * ? 60px = bawah (kanan bawah)
+        * ? 10px = kiri (kiri bawah) 
+        */
+    }
+
+    .kotak3{
+        border-radius: 2px 10px 80px 10px; 
+        /**
+        * ? sama seperti class kotak2
+        */
+    }
+
+    .kotak4{
+        border-radius: 0px 50px 0px 50px; 
+        /**
+        * * atau cukup 0px 50px 
+        * * 0px untuk bagian atas dan bawah
+        * * 50px untuk bagian kanan dan kiri
+        */
+    }
+
+    .kotak5{
+        border-radius: 0px 0px 0px 0px;
+        /**
+        * * atau cukup 0px
+        * * sama halnya dengan class kotak1
+        */
+    }
+
+    .kotak6{
+        border-radius: 100%;
+        /**
+        * ! merubah keselurahan sudut hingga membentuk lingkaran
+        */ 
+    }
+
+    .kotak7{
+        border-radius: 40px 10px;
+        /**
+        * ? sama seperti class kotak2
+        * ? hanya saja lebih singkat
+        */
+    }
+
+    .kotak8{
+        border-radius: 10px 10px 50% 50%;
+    }
+
+</style>
+<body>
+
+    <h1>Membuat border radius</h1>
+    <div class="center">
+        <div class="kotak kotak1">Kotak 1</div>
+        <div class="kotak kotak2">Kotak 2</div>
+        <div class="kotak kotak3">Kotak 3</div>
+        <div class="kotak kotak4">Kotak 4</div>
+        <div class="kotak kotak5">Kotak 5</div>
+        <div class="kotak kotak6">Kotak 6</div>
+        <div class="kotak kotak7">Kotak 7</div>
+        <div class="kotak kotak8">Kotak 8</div>
+    </div>
+    
+    <!-- /* The syntax of the first radius allows one to four values */
+    /* Radius is set for all 4 sides */
+    border-radius: 10px;
+
+    /* top-left-and-bottom-right | top-right-and-bottom-left */
+    border-radius: 10px 5%;
+
+    /* top-left | top-right-and-bottom-left | bottom-right */
+    border-radius: 2px 4px 2px;
+
+    /* top-left | top-right | bottom-right | bottom-left */
+    border-radius: 1px 0 3px 4px;
+
+    /* The syntax of the second radius allows one to four values */
+    /* (first radius values) / radius */
+    border-radius: 10px / 20px;
+
+    /* (first radius values) / top-left-and-bottom-right | top-right-and-bottom-left */
+    border-radius: 10px 5% / 20px 30px;
+
+    /* (first radius values) / top-left | top-right-and-bottom-left | bottom-right */
+    border-radius: 10px 5px 2em / 20px 25px 30%;
+
+    /* (first radius values) / top-left | top-right | bottom-right | bottom-left */
+    border-radius: 10px 5% / 20px 25em 30px 35em;
+
+    /* Global values */
+    border-radius: inherit;
+    border-radius: initial;
+    border-radius: revert;
+    border-radius: unset; -->
+
+    <!-- credit : https://developer.mozilla.org/en-US/docs/Web/CSS/border-radius-->
+
+</body>
+</html>

@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    body {
+        background: #4f5d75;
+        font-family: 'Open Sans';
+        text-align: center;
+    }
+
+    h1{
+        color: #f8ffe5;
+    }
+
+    .center{
+        margin: 10px auto;
+        width: 1150px;
+    }
+
+    .kotak{
+        background: #ef8354;
+        width: 500px;
+        float: left;
+        height: 250px;
+        margin: 30px;
+
+    }
+    .gradient1{
+        /**
+         * ! standard syntax
+         */
+        background: linear-gradient(#90a955, #ecf39e); 
+        /**
+         * ? for safari 5.1 to 6.0 
+         */
+        background: -webkit-linear-gradient(#90a955, #ecf39e); 
+        /**
+         * * for opera 11.1 to 12.0 
+         */
+        background: -o-linear-gradient(#90a955, #ecf39e);
+        /**
+         * ? for firefox 3.6 to 15 
+         */
+        background: -moz-linear-gradient(#90a955, #ecf39e);
+    }
+    .gradient2{
+        /**
+         * ! standard syntax
+         */
+        background: linear-gradient(#3a7ca5, #81c3d7, #2f6690); 
+        /**
+         * ? for safari 5.1 to 6.0 
+         */
+        background: -webkit-linear-gradient(#3a7ca5, #81c3d7, #2f6690); 
+        /**
+         * * for opera 11.1 to 12.0 
+         */
+        background: -o-linear-gradient(#3a7ca5, #81c3d7, #2f6690);
+        /**
+         * ? for firefox 3.6 to 15 
+         */
+        background: -moz-linear-gradient(#3a7ca5, #81c3d7, #2f6690);
+    }
+    .gradient3{
+        /**
+         * ! standard syntax
+         */
+        background: radial-gradient(#e0e1dd, #778da9,#415a77); 
+        /**
+         * ? for safari 5.1 to 6.0 
+         */
+        background: -webkit-radial-gradient(#e0e1dd, #778da9,#415a77); 
+        /**
+         * * for opera 11.1 to 12.0 
+         */
+        background: -o-radial-gradient(#e0e1dd, #778da9,#415a77);
+        /**
+         * ? for firefox 3.6 to 15 
+         */
+        background: -moz-radial-gradient(#e0e1dd, #778da9,#415a77);
+    }
+    .gradient4{
+        /**
+         * ! standard syntax
+         */
+        background: radial-gradient(circle,#e0e1dd, #778da9,#415a77); 
+        /**
+         * ? for safari 5.1 to 6.0 
+         */
+        background: -webkit-radial-gradient(circle,#e0e1dd, #778da9,#415a77); 
+        /**
+         * * for opera 11.1 to 12.0 
+         */
+        background: -o-radial-gradient(circle,#e0e1dd, #778da9,#415a77);
+        /**
+         * ? for firefox 3.6 to 15 
+         */
+        background: -moz-radial-gradient(circle,#e0e1dd, #778da9,#415a77);
+    }
+</style>
+<body>
+    <h1>Warna gradient</h1>
+    <div class="center">
+        <div class="kotak gradient1"></div>
+        <div class="kotak gradient2"></div>
+        <div class="kotak gradient3"></div>
+        <div class="kotak gradient4"></div>
+    </div>
+</body>
+</html>
