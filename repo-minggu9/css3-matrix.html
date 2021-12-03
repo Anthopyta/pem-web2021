@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    body {
+        background: #fff;
+        font-family: roboto;
+        text-align: center;
+    }
+    h1, h2 {
+        color: #588b8b;
+    }
+    .center {
+        margin: 20px auto;
+        width: 1150px;
+    }
+    .kotak1{
+        background: #f28f3b;
+        padding: 20px;
+        float: left;
+        margin: 50px;
+        width: 150px;
+        height: 150px;
+    }
+    .kotak2{
+        background: #f28f3b;
+        padding: 20px;
+        float: left;
+        margin: 50px;
+        width: 150px;
+        height: 150px;
+        transform: matrix(1, 2, -1, 1, 5, 4);
+    }
+</style>
+<body>
+    <h1>CSS transform</h1>
+    <h2>matrix()</h2>
+    <div class="center">
+        <div class="kotak1">
+            ini adalah kotak 1. kotak ini tidak diberikan method matrix
+        </div>
+        <div class="kotak2">
+            ini adalah kotak 2. ini content fungsi matrix() CSS transform.
+        </div>
+    </div>
+</body>
+</html>
