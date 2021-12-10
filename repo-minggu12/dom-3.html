@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <p class="paragraph">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Esse dolores inventore veritatis nihil quia officiis possimus architecto iste molestias ratione doloribus ad pariatur, vitae incidunt fugit quos et facere reprehenderit?</p>
+    <p class="paragraph">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Esse dolores inventore veritatis nihil quia officiis possimus architecto iste molestias ratione doloribus ad pariatur, vitae incidunt fugit quos et facere reprehenderit?</p>
+    <p class="paragraph">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Esse dolores inventore veritatis nihil quia officiis possimus architecto iste molestias ratione doloribus ad pariatur, vitae incidunt fugit quos et facere reprehenderit?</p>
+    
+    <script>
+        var paragraph = document.getElementsByClassName("paragraph");
+        setInterval (function() {
+            paragraph[0].style.color = "#2b2d42";
+            paragraph[1].style.color = "#8d99ae";
+            paragraph[2].style.color = "#ef233c";
+
+            setTimeout (function() {
+                paragraph[0].style.color = "#black";
+                paragraph[1].style.color = "#black";
+                paragraph[2].style.color = "#black";
+            },500) //warna akan berubah dalam waktu 500 milidetik / 0.5 detik
+        },1000); //1000 milidetik = 1 detik
+    </script>
+</body>
+</body>
+</html>
